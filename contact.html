@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shoetopia-style.css">
+    <title>Contact Us - Shoetopia</title>
+    <link rel="icon" href="images/logo/shoetopia.svg">
+</head>
+
+<body>
+
+<!--HEADER WITH LOGO AND NAVIGATION-->
+
+    <header>
+        <a class="logo" href="index.html"><img src="images/logo/shoetopia_slogan.svg" alt="Logo"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="products.html">Products</a></li>
+                <li><a href="stores.html">Stores</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#"><p class="reference">Contact</p></a></li>
+            </ul>
+        </nav>
+        <a href="signup.html" class="signup">Sign Up</a>
+
+        <div class="dropdown">
+            <img src="images/dropdown.png" alt="Dropdown Menu">
+            <div class="dropdown-content">
+              <a href="products.html">Products</a>
+              <a href="stores.html">Stores</a>
+              <a href="about.html">About</a>
+              <a href="#">Contact</a>
+              <a href="signup.html">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <div id="contactpagecontainer">
+        <div class="contactformcontainer">
+
+            <!--CONTACT US TEXT-->
+
+            <div>
+                <h1>CONTACT US</h1>
+            </div>
+
+            <!--CONTACT FORM-->
+
+            <form action="https://roan-equinox-chauffeur.glitch.me/form_process" method="GET" class="contactform" target="_blank">
+                <div>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="firstname" placeholder="First Name" id="firstname" required>
+
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="lastname" placeholder="Last Name" id="lastname" required>
+                </div>
+                
+                <div>
+                    <label for="email">E-Mail:</label>
+                    <input type="email" name="email" id="email" placeholder="example@email.com" required>
+                </div>
+                
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="25" rows="8" required></textarea>
+                </div>
+
+                <div id="contact-button-container">
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+
+        </div>
+
+        <div class="contactinfo">
+            
+
+        <!--COMPANY'S CONTACT INFO AND RELATED ICONS-->
+            
+            <div>
+                <img src="images/contact-icons/googlemapsicon.svg" alt="Google Maps">
+                <h3>Address</h3>
+                <p>5555 Shoe Street, Shoetopia, CA, 90011</p>
+            </div>
+
+            <div>
+                <img src="images/contact-icons/phoneicon.svg" alt="Telephone">
+                <h3>Phone Number</h3>
+                <p>555-555-5555</p>
+            </div>
+
+            <div>
+                <img src="images/contact-icons/email_icon.svg" alt="Mail">
+                <h3>E-Mail</h3>
+                <p>shoetopia@shoetopiashoes.com</p>
+            </div>
+        </div>
+    </div>
+
+<!--FOOTER WITH NAVIGATION AND SOCIALS-->
+
+    <footer>
+        <picture>
+            <source media="(min-width: 700px)" srcset="images/logo/shoetopia_slogan.svg">
+            <source media="(min-width: 500px)" srcset="images/logo/shoetopia.svg">
+            <img class="footer-logo" src="images/logo/shoetopia_slogan.svg" alt="Logo">
+        </picture>
+
+        <nav class="footerlinks">
+            <h3 class="footertitles">Quick Links</h3>
+            <ul>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="stores.html">Stores</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="socialmedialinks">
+            <h3 class="footertitles">Follow Us</h3>
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank"><img src="images/socialmedia-img/facebooklogo.svg" alt="Facebook"></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><img src="images/socialmedia-img/twitterlogo.svg" alt="Twitter"></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="images/socialmedia-img/instagramlogo.svg" alt="Instagram"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <div id="copyright">
+        <p>© 2021 Shoetopia. All Rights Reserved</p>
+    </div>
+</body>
+</html>
